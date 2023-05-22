@@ -2,17 +2,24 @@ package cla_war;
 
 public class Personagem {
     //energia vital
-    float ev;
+    public double ev;
     //capacidade de dano
-    int cd;
+    public int cd;
     //força de ataque
-    int fa;
+    public int fa;
     //abilidade especial
-    int ab;
+    public int ab;
+    //a personagem
+    public String persona;
     
-    //funçãoq que define a abilidade especiald e cada jogador com base no atributo ab
-    static void habilidadeEspecial(){
+    //método que define a abilidade especiald e cada jogador com base no atributo ab
+    public void habilidadeEspecial(){
         
+    }
+
+    //método que desconta valores na ev (energia vital) do personagem
+    public void descontarEv(double valor){
+        this.ev -= valor;  
     }
 
 }
