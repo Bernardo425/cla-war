@@ -1,16 +1,16 @@
-package cla_war;
+package isptec.pii.pp2.cla_war.jogo;
 
 import java.util.Scanner;
 import java.util.Random;
-import cla_war.Jogador;
+import isptec.pii.pp2.cla_war.jogo.Jogador;
 
-public class Jogo {
+public class Jogo{
    
     
     // função que será chamada na opção 1 do menu
     // retorna 1 caso o jogo decorra na normalidade e um dos jogadores saia vencedor
     // retorna 2 quando após a seleção dos jogadores, decidir-se não continuar para a batalha
-    static int Jogar(){
+    public static int Jogar(){
         Scanner in = new Scanner(System.in);
         // declarando as variaveis para armazenar os dados do jogador 1 e os dados do jogador 2
         Jogador jogador1;

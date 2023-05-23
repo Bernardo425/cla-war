@@ -1,4 +1,4 @@
-package cla_war;
+package isptec.pii.pp2.cla_war.jogo;
 
 public class Personagem {
     //energia vital

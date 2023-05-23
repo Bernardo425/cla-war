@@ -1,5 +1,5 @@
-package cla_war;
-import cla_war.Jogo;
+package isptec.pii.pp2.cla_war;
+import isptec.pii.pp2.cla_war.jogo.Jogo;
 import java.util.Scanner;
 
 public class Cla_war {

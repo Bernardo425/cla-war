@@ -1,6 +1,5 @@
 
-package cla_war;
-import cla_war.Personagem;
+package isptec.pii.pp2.cla_war.jogo;
 
 public class Jogador {
     public Personagem personagem;
